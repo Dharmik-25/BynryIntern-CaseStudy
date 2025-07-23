@@ -45,7 +45,9 @@ How are bundle prices calculated?
 Indexes on inventory fields speed up joins.
 ON DELETE CASCADE cleans up data.
 low_stock_threshold added for alerts.
-Assumption: Bundles use is_bundle flag.
+
+### Assumption:
+Bundles use is_bundle flag.
 Impact: Supports multi-warehouse tracking and reordering.
 
 ## Part 3: Alert API
